@@ -1,0 +1,43 @@
+{
+  "name": "@ctx-core/import-meta-resolve",
+  "version": "1.0.21",
+  "type": "module",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./src/index.mjs",
+      "import": "./src/index.mjs",
+      "require": "./src/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "import-meta-resolve": "^2.2.2"
+  },
+  "devDependencies": {
+    "c8": "^7.13.0",
+    "check-dts": "^0.7.0",
+    "tsx": "^3.12.3",
+    "typescript": "next",
+    "uvu": "^0.5.6"
+  },
+  "noUpdate": [],
+  "homepage": "https://github.com/ctx-core/import-meta-resolve#readme",
+  "svelte": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/import-meta-resolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctx-core/import-meta-resolve/issues"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": ":",
+    "clean": ":",
+    "exec": "$@",
+    "test": "pnpm test-unit && check-dts",
+    "test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+    "test-unit-coverage": "c8 pnpm test-unit"
+  }
+}
