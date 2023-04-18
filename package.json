@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/import-meta-resolve",
-  "version": "1.0.21",
+  "version": "1.0.35",
   "type": "module",
   "types": "./src/index.d.ts",
   "exports": {
