@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.0.42
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 1.0.41
 
 ### Patch Changes
