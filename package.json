@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/import-meta-resolve",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "type": "module",
   "types": "./src/index.d.ts",
   "exports": {
@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "c8": "^7.13.0",
-    "check-dts": "^0.7.0",
-    "tsx": "^3.12.3",
+    "check-dts": "^0.7.1",
+    "tsx": "^3.12.6",
     "typescript": "next",
     "uvu": "^0.5.6"
   },

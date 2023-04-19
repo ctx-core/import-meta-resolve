@@ -1,5 +1,12 @@
 # @ctx-core/import-meta-resolve
 
+## 1.0.43
+
+### Patch Changes
+
+- check-dts: ^0.7.0 -> ^0.7.1
+- tsx: ^3.12.3 -> ^3.12.6
+
 ## 1.0.42
 
 ### Patch Changes
