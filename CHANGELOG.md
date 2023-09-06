@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.0.45
+
+### Patch Changes
+
+- version bump
+
 ## 1.0.44
 
 ### Patch Changes
