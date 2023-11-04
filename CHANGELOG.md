@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.0.47
+
+### Patch Changes
+
+- import-meta-resolve: ^3.0.0 -> ^4.0.0
+
 ## 1.0.46
 
 ### Patch Changes
