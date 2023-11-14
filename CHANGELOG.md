@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+
 ## 1.1.1
 
 ### Patch Changes
