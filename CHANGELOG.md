@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.1.8
+
+### Patch Changes
+
+- tsx: ^4.4.0 -> ^4.5.0
+
 ## 1.1.7
 
 ### Patch Changes
