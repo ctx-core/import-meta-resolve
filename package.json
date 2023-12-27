@@ -39,7 +39,8 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"test": "pnpm test:unit && check-dts",
+		"test": "pnpm test:unit && pnpm test:types",
+		"test:types": "check-dts",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test:unit:coverage": "c8 pnpm test:unit"
 	}
