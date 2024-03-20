@@ -1,6 +1,27 @@
 {
 	"name": "@ctx-core/import-meta-resolve",
-	"version": "1.1.10",
+	"version": "1.1.11",
+	"description": "ctx-core import-meta-resolve",
+	"keywords": [
+		"import",
+		"import-meta",
+		"import-meta-resolve",
+		"ctx-core"
+	],
+	"homepage": "https://github.com/ctx-core/import-meta-resolve#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/import-meta-resolve/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/import-meta-resolve.git"
+	},
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-import-meta-resolve@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts"
@@ -25,15 +46,7 @@
 		"uvu": "^0.5.6"
 	},
 	"noUpdate": [],
-	"homepage": "https://github.com/ctx-core/import-meta-resolve#readme",
 	"svelte": "./lib/index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/import-meta-resolve.git"
-	},
-	"bugs": {
-		"url": "https://github.com/ctx-core/import-meta-resolve/issues"
-	},
 	"sideEffects": false,
 	"scripts": {
 		"build": ":",

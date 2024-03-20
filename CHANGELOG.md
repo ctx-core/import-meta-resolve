@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.1.11
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 1.1.10
 
 ### Patch Changes
