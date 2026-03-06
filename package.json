@@ -51,9 +51,9 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"test": "pnpm run /^test:/",
+		"test": "bun run test:types && bun run test:unit",
 		"test:types": "tsc --noEmit",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
-		"disable:test:unit:coverage": "c8 pnpm test:unit"
+		"disable:test:unit:coverage": "c8 bun run test:unit"
 	}
 }
