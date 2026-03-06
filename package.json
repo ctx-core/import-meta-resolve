@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/import-meta-resolve",
-	"version": "1.1.13",
+	"version": "1.1.14",
 	"description": "ctx-core import-meta-resolve",
 	"keywords": [
 		"import",

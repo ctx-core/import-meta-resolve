@@ -1,5 +1,11 @@
 # @ctx-core/import-meta-resolve
 
+## 1.1.14
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 1.1.13
 
 ### Patch Changes
